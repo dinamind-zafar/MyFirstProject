@@ -1,0 +1,12 @@
+#nav{
+    background-color: azure;
+    height: 100%;
+    width: 90%;
+}
+#nav li{
+    display: inline;
+    text-align: ;
+    padding-right:15px; 
+    font-size: 100%;
+    
+}

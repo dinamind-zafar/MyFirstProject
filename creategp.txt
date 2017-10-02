@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <h1>Create Group</h1>
+    <link rel="stylesheet" type="text/css" href="WebPage.css">
+    <link rel="stylesheet" type="text/css" href="CreateGroup.css">
+    <link rel="shortcut icon" href="icon.png">
+    </head>
+
+    <body>
+
+        <div id ="nav" >
+            <ul>
+
+                <a href="WebPage.html"><li>Home</li></a>
+                <a href="Dashboard.html"><li>Dashboard</li></a>
+                <a href="Profile.html"><li>Profile</li></a>
+
+            </ul>
+
+        </div>
+        <div class = "registration">
+            
+            <from action="#" name="my_form"  onsubmit="return(validate());">
+            Projet Title: 
+                <input type="text" name="Project Title"><br>
+                <p> </p>
+            Course Code:
+                <input type="text" name="Course Code"><br>
+                <p> </p>
+			Instructor ID:
+                <input type="text" name="Instructor ID"><br>
+                <p> </p>
+            Member ID:
+                <input type="text" name="Member ID"><br>
+                <p> </p>
+			Semester:<br>
+			<select text="text" name="Semester">
+                <option value="1st Semester">1st Semester</option>
+                <option value="2nd Semester">2nd Semester</option>
+                <option value="3rd Semester">3rd Semester</option>
+                <option value="4th Semester">4th Semester</option>
+                <option value="5th Semester">5th Semester</option>
+                <option value="6th Semester">6th Semester</option>
+                <option value="7th Semester">7th Semester</option>
+                <option value="8th Semester">8th Semester</option>
+                </select>
+                <p> </p>
+                <center>
+                <style>
+                    .bordered {
+                        width: 200px;
+                        height: 100px;
+                        padding: 20px;
+                        border: 10px ridge black;
+                        }
+                </style>
+                    
+                <div class="bordered">
+                        User Name:<br>
+                <input type="text" name="User Name">
+                    <br>
+                   <button>Add</button><button>Cancel</button>
+                    
+                </div>
+                </center>
+                <div id=”bottom-right”>
+               <center><button>Add Member</button></center>
+                </div>
+            </from>
+        </div>
+    </body>
+</html>

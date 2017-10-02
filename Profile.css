@@ -1,0 +1,23 @@
+#nav{
+    background-color: azure;
+    height: 100%;
+    width: 90%;
+}
+#nav li{
+    display: inline;
+    text-align: ;
+    padding-right:15px; 
+    font-size: 100%;
+}
+.message{
+    background-color: lightgreen;
+    height: 50%;
+    width:90%
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:red;
+    text-decoration:double;
+}

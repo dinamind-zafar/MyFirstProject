@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <h1>Project Diary</h1>
+    
+    <link rel="stylesheet" type="text/css" href="WebPage.css">
+    <link rel="icon" href="icon.png">
+    
+    <script type="text/javascript">
+
+      function validate()
+      {
+      
+         if( document.my_form.name.value == "" || document.my_form.name.value.length<6 )
+         {
+            alert( "Please provide your name!" );
+            document.my_form.name.focus() ;
+            return false;
+         }
+         
+         if( document.my_form.email.value == "" )
+         {
+            alert( "Please provide your Email!" );
+            document.my_form.email.focus() ;
+            return false;
+         }
+         
+         if( document.my_form.Recognition.value == "-1" )
+         {
+            alert( "Please provide your Recognition!" );
+            return false;
+         }
+		 
+         return( true );
+      }
+        
+      </script>
+    </head>
+
+    <body>
+        
+        <div id ="nav" >
+            <ul>
+            
+                <a href="WebPage.html"><li>Home</li></a>
+                <a href="#Registration"><li>Registration</li></a>
+                <a href="Login.html"><li>Login</li></a>
+                
+            </ul>
+        
+        </div>
+        
+        <div class = "registration">
+        
+            <h2>Registration Page!!!</h2>
+            
+            <from action="#" name="my_form"  onsubmit="return(validate());">
+
+            Name: 
+                <input type="text" name="name"><br>
+                <p></p>
+            Email:
+                <input type="text" name="email"><br>
+                <p></p>
+            Password:
+                <input type="text" name="password"><br>
+                <p></p>
+                Re-type Password:
+                <input type="text" name="Re-type Password"><br>
+                <p></p>
+			Mobile No:
+                <input type="text" name="Mobile No"><br>
+                <p></p>
+				
+            Institute:
+                <input type="text" name="Institute"><br> 
+				<h2></h2>				
+            Recognition: 
+			<select text="text" name="Recognition">
+                <option value="Teacher">Teacher</option>
+                <option value="Student">Student</option>
+                </select>
+                <br>
+            
+                <input type="Submit" value="Submit">
+                
+            </from>
+            
+        </div>
+        
+        <div id = "footer">
+        <p>@Created by TeTr@ SuPeRiOrS THE GROUP</p>
+        </div>
+        
+    </body>
+</html>
